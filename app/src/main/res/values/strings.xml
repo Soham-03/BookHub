@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About app</string>
+    <string name="close_drawer">Close_Drawer</string>
+    <string name="open_drawer">Open_Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dashboard_fragment">dashboard fragment</string>
+    <string name="removefav">Remove from Favourites</string>
+</resources>

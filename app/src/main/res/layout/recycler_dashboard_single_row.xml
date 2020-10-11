@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#424242"
+    app:cardCornerRadius="8dp">
+<RelativeLayout
+    android:id="@+id/dashboardContent"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#616161"
+    >
+    <ImageView
+        android:id="@+id/imgBookDashboardLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/bookdashboard"
+        />
+
+    <TextView
+        android:id="@+id/txtBookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is item text"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imgBookDashboardLogo"
+        />
+    <TextView
+        android:id="@+id/txtnameOfAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the author"
+        android:layout_marginTop="5dp"
+        android:textColor="#E64A19"
+        android:layout_below="@+id/txtBookName"
+        android:layout_toRightOf="@+id/imgBookDashboardLogo"/>
+
+    <ImageView
+        android:id="@+id/imgStarRating"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@id/txtPrice"
+        android:layout_below="@id/txtnameOfAuthor"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/starrating"
+        />
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_alignBottom="@id/imgStarRating"
+        android:layout_alignTop="@+id/imgStarRating"
+        android:layout_toRightOf="@+id/imgStarRating"
+        android:text="4.5"
+        android:textColor="#EEFF41" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs:500"
+        android:textStyle="bold"
+        android:textColor="#43A047"
+        android:layout_below="@id/txtnameOfAuthor"
+        android:layout_marginLeft="140dp"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
